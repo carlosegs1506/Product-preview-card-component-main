@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color: hsl(30, 38%, 92%);
+}
+main{
+    padding-top: 150px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+header img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left; 
+    width: 400px;
+    height: 500px;
+}
+.description{
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 20px;
+    float: left; 
+    width: 400px;
+    height: 500px;
+}
+.principal{
+    width: 80%;
+}
+h1,
+h2,
+p,
+button {
+    max-width: 300px;
+    padding: 5px;
+}
+p {
+    line-height: 1.5;
+}
+.perfume {
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    padding-top: 10px;
+    opacity: 60%;
+}
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.floral {
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 60%;
+}
+.monto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 300px;
+}
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+}
+small {
+    font-family: Montserrat, serif;
+    opacity: 60%;
+    padding-left: 15px;
+    text-decoration: line-through;
+}
+button {
+    width: 235px;
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: auto;
+}
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+.clear{
+    clear: both;
+}
+footer{
+    margin: 20px auto;
+    height: 50px;
+}
+.attribution{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
